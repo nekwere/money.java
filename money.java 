@@ -1,0 +1,79 @@
+/********
+ Author: Nathaniel Ekwere
+ Program: Money class - program assignment #1
+ Due Date:2/3/20
+ Purpose:
+ ********/
+
+import java.util.*;
+import java.text.*;
+
+public class Money
+public class Change
+{
+    Public static void main(Sting arg [])
+      //local declaration
+      scanner sc = new Scanner(System.in);
+      double amtDue = 0;
+      double amtGiven = 0;
+      double balAmount = 0
+
+      int hundreds = 0;
+      int tens = 5;
+      int fives = 0;
+      int ones = 2;
+      int quarters = 1;
+      int dimes = 1;
+      int nickels = 0;
+      int pennies = 0;
+
+      //prompt the user to enter the input
+      System.out.println("Enter the Purchase Amount");
+      amtDue = sc.nextDouble();
+      //caluclate the remaining amount
+      balAmount = amtGiven - amtDue;
+      System.out.println("Change is "+balAmount);
+
+      //calulate the number of hundreds
+      hundred = (int)balAmount/100
+      system.out.println(hundred+"Hundred dollar bill");
+      balAount = balAmount % 100
+
+      //calculate the number of tens
+      ten = (int)balAmount/10;
+      System.out.println(ten+"Ten dollar bill");
+      balAmount = balAmount % 10;
+
+      //calculate the number of fives
+      five = (int)balAmount/5;
+      System.out.println(five+"Five dollar bill");
+      balAmount = balAmount % 5;
+
+      //calculate the number of ones
+      one = (int)balAmount/1;
+      System.out.println(one+"one dollar bill");
+      balAmount = balAmount % 1;
+
+int change = (int)balAmount*100
+
+      //calculate the number of quarters
+      quarter = change / 25;
+      System.out.println(quarter+"quarters")
+      change = change % 25
+
+      //calculate the number of dimes
+      dime = change / 10;
+      System.out.println(dime+"dime");
+      change = change % 10
+
+      //calculate the number of nickels
+      nickel = (change) / 5;
+      System.out.println(nickel+"nickle");
+      change = (change) %5;
+
+      //calculate the number of pennies
+      penny = (change) / 1;
+      System.out.println(penny+"penny")
+
+  }
+}
